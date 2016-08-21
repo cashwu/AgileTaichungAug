@@ -1,0 +1,11 @@
+{
+    "name": "myproject",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "cucumber-js"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "cucumber": "^1.2.2"
+    }
+}
