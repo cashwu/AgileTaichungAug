@@ -1,9 +1,13 @@
 {
-    "name": "myproject",
+    "name": "calculatorjs",
     "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
     "scripts": {
         "test": "cucumber-js"
     },
+    "author": "",
+    "license": "ISC",
     "devDependencies": {
         "chai": "^3.5.0",
         "cucumber": "^1.2.2"
