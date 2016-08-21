@@ -97,12 +97,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LoginSuccess.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginSuccess.feature</DependentUpon>
+    </Compile>
+    <Compile Include="LoginSuccessSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="LoginSuccess.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>LoginSuccess.feature.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
