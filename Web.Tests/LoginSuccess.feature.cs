@@ -71,13 +71,13 @@ namespace Web.Tests
 #line 4
 this.ScenarioSetup(scenarioInfo);
 #line 6
-testRunner.Given(": 輸入使用者名稱 \"Cash\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "假設");
+testRunner.Given("輸入使用者名稱 \"Cash\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "假設");
 #line 7
-testRunner.And(": 輸入密碼 \"1234\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "並且");
+testRunner.And("輸入密碼 \"1234\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "並且");
 #line 8
-testRunner.When(": 登入時", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "當");
+testRunner.When("登入時", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "當");
 #line 9
-testRunner.Then(": 成功導到 Index 頁面", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "那麼");
+testRunner.Then("成功導到 Index 頁面", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "那麼");
 #line hidden
             this.ScenarioCleanup();
         }

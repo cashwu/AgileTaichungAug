@@ -71,13 +71,13 @@ namespace Calculator.Tests
 #line 4
 this.ScenarioSetup(scenarioInfo);
 #line 5
-testRunner.Given(": 輸入第一個數字 \"10\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "假設");
+testRunner.Given("輸入第一個數字 \"10\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "假設");
 #line 6
-testRunner.And(": 輸入第二個數字 \"20\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "並且");
+testRunner.And("輸入第二個數字 \"20\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "並且");
 #line 7
-testRunner.When(": 計算時", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "當");
+testRunner.When("計算時", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "當");
 #line 8
-testRunner.Then(": 結果是 \"30\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "那麼");
+testRunner.Then("結果是 \"30\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "那麼");
 #line hidden
             this.ScenarioCleanup();
         }

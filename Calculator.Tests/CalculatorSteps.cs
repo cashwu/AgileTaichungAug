@@ -14,21 +14,21 @@ namespace Calculator.Tests
             target = new MyCalculator();
         }
 
-        [Given(@": 輸入第一個數字 ""(.*)""")]
+        [Given(@"輸入第一個數字 ""(.*)""")]
         public void 假設輸入第一個數字(int first)
         {
             //arrange
             ScenarioContext.Current.Set<int>(first, "first");
         }
         
-        [Given(@": 輸入第二個數字 ""(.*)""")]
+        [Given(@"輸入第二個數字 ""(.*)""")]
         public void 假設輸入第二個數字(int second)
         {
             //arrange
             ScenarioContext.Current.Set<int>(second, "second");
         }
         
-        [When(@": 計算時")]
+        [When(@"計算時")]
         public void 當計算時()
         {
             //act
@@ -39,7 +39,7 @@ namespace Calculator.Tests
             ScenarioContext.Current.Set<int>(actual, "result");
         }
         
-        [Then(@": 結果是 ""(.*)""")]
+        [Then(@"結果是 ""(.*)""")]
         public void 那麼結果是(int expected)
         {
             //assert
